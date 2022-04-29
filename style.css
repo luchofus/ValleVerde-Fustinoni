@@ -170,6 +170,12 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    transition: 1s;
+}
+.border:hover{
+    background: gray;
+    opacity: .7;
+    transform: scale(2,1);
 }
 .img-text{
     position: absolute;
