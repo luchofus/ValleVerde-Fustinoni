@@ -175,6 +175,7 @@ body{
     background: gray;
     opacity: .9;
 }
+
 .img-text{
     position: absolute;
     bottom: 0%;
@@ -254,10 +255,6 @@ body{
     padding: 10px 10px;
     border: solid 1px rgb(104, 103, 103);
     border-radius: 10px;
-    transition: all 1s;
-}
-.section4__p2:hover {
-    background: rgb(54, 192, 54);
 }
 
 .section4__p2 a {
