@@ -170,12 +170,10 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    transition: all 1s;
 }
-.border{
-    background-color: grey;
-    opacity: .8;
-    transform: scale(2,1);
+.border:hover{
+    background: grey;
+    opacity: .9;
 }
 .img-text{
     position: absolute;
@@ -256,8 +254,11 @@ body{
     padding: 10px 10px;
     border: solid 1px rgb(104, 103, 103);
     border-radius: 10px;
+    transition: all 1s;
 }
-
+.section4__p2:hover{
+    background-color: green;
+}
 .section4__p2 a {
     text-decoration: none;
     color: black; 
