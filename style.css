@@ -172,7 +172,7 @@ body{
     justify-content: center;
 }
 .border:hover{
-    background: grey;
+    background: gray;
     opacity: .9;
 }
 .img-text{
@@ -256,9 +256,10 @@ body{
     border-radius: 10px;
     transition: all 1s;
 }
-.section4__p2:hover{
-    background-color: green;
+.section4__p2:hover {
+    background: rgb(54, 192, 54);
 }
+
 .section4__p2 a {
     text-decoration: none;
     color: black; 
