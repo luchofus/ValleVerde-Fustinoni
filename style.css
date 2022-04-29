@@ -170,6 +170,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
+    transition: all 1s;
 }
 .border:hover{
     background: gray;
@@ -255,6 +256,10 @@ body{
     padding: 10px 10px;
     border: solid 1px rgb(104, 103, 103);
     border-radius: 10px;
+    transition: all 1s;
+}
+.section4__p2:hover{
+    background-color: rgb(54, 192, 54);
 }
 
 .section4__p2 a {
