@@ -172,9 +172,9 @@ body{
     justify-content: center;
     transition: all 1s;
 }
-.border:hover{
-    background: gray;
-    opacity: .7;
+.border{
+    background-color: grey;
+    opacity: .8;
     transform: scale(2,1);
 }
 .img-text{
