@@ -8,11 +8,87 @@ body{
     overflow-x: hidden;
 
 }
-#encabezado{
+#navbarNav{
+    background-color:rgb(144, 188, 179);
+
+}
+#header{
     width: 100vw;
+    background-color: green;
 }
+li > a{
+    color: white;
+}
+.navbar-nav{
+    width: 100%;
+    margin-left: 0%;
+    padding: 0%;
+}
+.navbar-toggler{
+    border: none;
+    height: 100%;
+}
+.container-fluid{
+    background-color: green;
+}
+#cont-header{
+    background-color: rgb(144, 188, 179);
+    position: relative;
+    bottom: 8px;
+}
+.nav-item{
+    padding: 30px 25px;
+}
+.nav-link{
+    font-size: 18px;
+}
+button{
+    color: white;
+}
+#navbarNav{
+
+}
+.navbar-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-brand > img{
+    height: 100px;
+    width: 200px;
+}
+
 #cont-ig{
-    background-color: rgb(50, 187, 50)
+    background-color: rgb(40, 165, 40);
+}
+.ig > i{
+    color: black;
 }
 
 
+
+
+
+
+@media only screen and (min-width:550px) and (max-width: 995px) {
+    #navbarNav{
+        background-color:rgb(57, 182, 57);
+    }
+    #cont-header{
+        background-color: rgb(57, 182, 57);
+    }
+    .navbar-brand > img{
+        display: none;
+    }
+    #cont-ig{
+        display: none;
+    }
+    header{
+        position: relative;
+        bottom: 8px;
+    }
+    .navbar-toggler{
+        margin: 20px 10px;
+    }
+    
+
+}
