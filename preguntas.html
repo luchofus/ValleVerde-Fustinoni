@@ -22,14 +22,10 @@
 
 <body>
     <!--Encabezado-->
-    <div class="container-fluid" id="cont-ig">
-        <div class="row">
-            <div class="col-lg-12">
-                <a class="ig" href="">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-        </div>
+    <div class="cont-instagram">
+        <a class="link-ig" href="#">
+            <i class="fab fa-instagram" id="ig-encabezado"></i>
+        </a>
     </div>
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,7 +47,7 @@
                             <a class="nav-link" href="#" style="color: white;">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" style="color: white;">Preguntas frecuentes</a>
+                            <a class="nav-link" href="preguntas.html" style="color: white;">Preguntas frecuentes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#" style="color: white;">¿Cómo comprar?</a>
@@ -144,57 +140,86 @@
         </div>
     </section>
     <footer>
-        <div class="container-footer" id="footerp">
+        <div class="container-fluid-footer" id="preguntas-footer">
             <div class="row">
-                <div class="col-lg-3 col-sm-6 col-dm-6" id="cajas">
-                    <ul class="box-footer">
-                        <li class="nav-footer" id="titulo">Navegación</li>
-                        <li class="nav-footer" id="nav-li">Nosotros</li>
-                        <li class="nav-footer" id="nav-li">Preguntas frecuentes</li>
-                        <li class="nav-footer" id="nav-li">¿Cómo comprar?</li>
-                        <li class="nav-footer" id="nav-li">Contacto</li>
+                <div class="col col-lg-4 col-dm-4 col-xs-6" id="box-footer">
+                    <ul class="footer__ul">
+                        <li class="footer__li" id="Titulo">
+                            Navegación
+                        </li>
+                        <li class="footer__li">
+                            <a href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="preguntas.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="comprar.html">¿Cómo comprar?</a>
+                        </li>
+                        <li class="footer__li">
+                            <a href="contacto.html">Contacto</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-dm-6" id="cajas">
-                    <ul class="box-footer">
-                        <li class="contact-footer" id="titulo">Datos de contacto</li>
-                        <li class="contact-footer" id="contact-li">
-                            <i class="fas fa-phone"></i> 11 2812 0934
+                <div class="col col-lg-4 col-dm-4 col-xs-6" id="box-footer">
+                    <ul class="footer__ul">
+                        <li class="footer__li" id="Titulo">
+                            Datos de contacto
                         </li>
-                        <li class="contact-footer" id="contact-li">
-                            <i class="fas fa-gmail"></i> valleverde@gmail.com
+                        <li class="footer__li">
+                            <i class="fas fa-phone">11 8721 1293</i>
+                        </li>
+                        <li class="footer__li">
+                            <i class="fas fa-message">valleverde@gmail.com</i>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-dm-6" id="cajas">
-                    <p class="box-footer" id="titulo">Ubicación</p>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.83590113967!2d-58.76371738519422!3d-34.6335869665853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95bd9fb42cc3%3A0x58db4663135d99a7!2sDiet%C3%A9tica%20Valle%20Verde!5e0!3m2!1ses!2sar!4v1649819413211!5m2!1ses!2sar"
-                        width="200" height="80" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col col-lg-4 col-dm-4 col-xs-12 id=" box-footer">
+                    <ul class="footer__ul">
+                        <li class="footer__li" id="Titulo">
+                            Ubicación
+                        </li>
+                        <li class="footer__li" id="gps">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.83590113967!2d-58.76371738519422!3d-34.6335869665853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc95bd9fb42cc3%3A0x58db4663135d99a7!2sDiet%C3%A9tica%20Valle%20Verde!5e0!3m2!1ses!2sar!4v1651874647937!5m2!1ses!2sar"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-lg-3 col-sm-6 col-dm-6" id="cajas">
-                    <ul class="box-footer">
-                        <li class="pay-footer" id="titulo">Medios de pago</li>
-                        <div class="cont-pay-img">
-                            <li class="pay-footer">
+            </div>
+            <div class="row">
+                <div class="col col-lg-12 col-dm-12 col-xs-12">
+                    <ul class="footer__ul">
+                        <li class="footer__li" id="Titulo">
+                            Medios de pago
+                        </li>
+                        <div class="cont-pay">
+                            <li class="footer__li" id="footer__img">
                                 <img src="imagenes/american.png" alt="">
                             </li>
-                            <li class="pay-footer">
+                            <li class="footer__li" id="footer__img">
                                 <img src="imagenes/mastercard.png" alt="">
                             </li>
-                            <li class="pay-footer">
-                                <img src="imagenes/mercado-pago.png" alt="">
+                            <li class="footer__li" id="footer__img">
+                                <img src="imagenes/visa.png" alt="">
                             </li>
-                            <li class="pay-footer">
+                            <li class="footer__li" id="footer__img">
                                 <img src="imagenes/pagofacil.png" alt="">
+                            </li>
+                            <li class="footer__li" id="footer__img">
+                                <img src="imagenes/naranja.png" alt="">
+                            </li>
+                            <li class="footer__li" id="footer__img">
+                                <img src="imagenes/mercado-pago.png" alt="">
                             </li>
                         </div>
                     </ul>
-                    <div class="contain-copy">
-                        <p class="copyright">©Copyright todos los derechos reservados
-                        </p>
-                    </div>
+                </div>
+            </div>
+            <div class="row" id="copyright">
+                <div class="col col-lg-12 col-dm-12 col-xs-12">
+                    <p>Copyright todos los derechos reservados</p>
                 </div>
             </div>
         </div>
