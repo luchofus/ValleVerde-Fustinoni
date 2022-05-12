@@ -1,0 +1,66 @@
+@import '../base/variables';
+@import '../base/mixin';
+header{
+    .navbar{
+        #cont-header{
+            position: relative;
+            bottom: 8px;
+            height: 120px;
+            background-color: $bg-header;
+            .navbar-brand{
+                height: 100%;
+                width: 200px;
+                margin-left: 20px;
+                .navbar-img{
+                    height: 100%;
+                    width: 100%;
+                }
+                @media only screen and (max-width:990px) {
+                    display: none;
+                }
+            }
+            .navbar-toggler{
+                font-size: 20px;
+                padding: 5px 5px;
+                border: none; 
+            }
+            #navbarNav{
+                @include flex-end (flex, flex-end, center);
+                .navbar-nav{
+                    .page{
+                        padding: 0px 25px;
+                        .link-page{
+                            font-size: 15px;
+                            color: white;
+                            &:hover{
+                                color: gray;
+                                border-bottom: solid 1px $bg-color-principal;
+                            }
+                        }
+                    @media only screen and (max-width:990px) {
+                        padding: 25px 0px;
+                    }
+                    }
+                }
+            }
+            @media only screen and (max-width:990px) {
+                background-color: $bg-color-principal;
+                height: 100%;
+                position: relative;
+                bottom: 8px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

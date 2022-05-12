@@ -1,0 +1,5 @@
+@mixin flex-end ($flex, $alignH, $alignV) {
+    flex: $flex;
+    justify-content: $alignH;
+    align-items: $alignV;
+}
