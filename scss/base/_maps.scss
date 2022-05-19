@@ -1,0 +1,13 @@
+@import '../base/variables';
+$instagram:(
+    bg-instagram: $bg-color-principal,
+    border: solid 2px $bg-color-principal,
+    border-circular: 40px,
+    color-texto: $bg-color-principal,
+    icono-instagram: black,
+);
+
+$link-page:(
+    color-letter:white,
+    size-letter:18px,
+)

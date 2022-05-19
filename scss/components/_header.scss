@@ -1,11 +1,25 @@
 @import '../base/variables';
 @import '../base/mixin';
+@import '../base/maps';
 header{
-    .navbar{
+    .cont-instagram{
+        width: 100%;
+        background-color: $bg-color-principal;
+        .link-ig{
+            padding: 5px 10px;
+            font-size: 20px;
+            #ig-encabezado{
+                color: black;
+            }
+        }
+    @media only screen and (max-width:990px) {
+        display: none;
+    }
+    }
+    #nav{
         #cont-header{
             position: relative;
-            bottom: 8px;
-            height: 120px;
+            height: 150px;
             background-color: $bg-header;
             .navbar-brand{
                 height: 100%;
@@ -29,14 +43,53 @@ header{
                 .navbar-nav{
                     .page{
                         padding: 0px 25px;
-                        .link-page{
-                            font-size: 15px;
-                            color: white;
+                        #inicio{
+                            color: map-get($link-page, color-letter);
+                            font-size: map-get($link-page, size-letter);
+                            transition: all 0,5s;
                             &:hover{
+                                border-bottom: solid 2px $bg-color-principal;
                                 color: gray;
-                                border-bottom: solid 1px $bg-color-principal;
                             }
                         }
+                        #nosotros{
+                            color: map-get($link-page, color-letter);
+                            font-size: map-get($link-page, size-letter);
+                            transition: all 0,5s;
+                            &:hover{
+                                border-bottom: solid 2px $bg-color-principal;
+                                color: gray;
+                            }
+                        }
+                        #preguntas{
+                            color: map-get($link-page, color-letter);
+                            font-size: map-get($link-page, size-letter);
+                            transition: all 0,5s;
+                            &:hover{
+                                border-bottom: solid 2px $bg-color-principal;
+                                color: gray;
+                            }
+                        }   
+                        #comprar{
+                            color: map-get($link-page, color-letter);
+                            font-size: map-get($link-page, size-letter);
+                            transition: all 0,5s;
+                            &:hover{
+                                border-bottom: solid 2px $bg-color-principal;
+                                color: gray;
+                            }
+                        }
+                        #contacto{
+                            color: map-get($link-page, color-letter);
+                            font-size: map-get($link-page, size-letter);
+                            transition: all 0,5s;
+                            &:hover{
+                                border-bottom: solid 2px $bg-color-principal;
+                                color: gray;
+                            }
+                        }
+
+
                     @media only screen and (max-width:990px) {
                         padding: 25px 0px;
                     }
@@ -47,14 +100,13 @@ header{
                 background-color: $bg-color-principal;
                 height: 100%;
                 position: relative;
-                bottom: 8px;
+                bottom: 0%;
             }
         }
         @media only screen and (max-width:990px) {
             position: fixed;
             width: 100vw;
             z-index: 10;
-            max-height: 100px;
             background: green;
         }
     }
