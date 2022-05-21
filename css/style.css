@@ -349,6 +349,7 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 .container-fluid-footer #row-footer #box-footer .footer__ul .footer__li .link-footer:hover {
   color: lightgreen;
   border-bottom: solid 1px lightgreen;
+  font-size: 25px;
 }
 .container-fluid-footer #row-footer #box-footer .footer__ul #footer-contact {
   display: flex;
