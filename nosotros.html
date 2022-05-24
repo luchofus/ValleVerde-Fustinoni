@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Valle Verde es una dietética fundada en 2011, con el fin de poder brindar los mejores productos nutritivos y beneficiarios para nuestra vida. En nuestra página web podrás encontrar toda la información acerca de nosotros">
+    <meta name="description"
+        content="Valle Verde es una dietética fundada en 2011, con el fin de poder brindar los mejores productos nutritivos y beneficiarios para nuestra vida. En nuestra página web podrás encontrar toda la información acerca de nosotros">
     <meta name="keywords" content="nosotros ubicación productos dietéticos negocio salud saludable productos compra">
     <meta property:'og:title' content="Nosotros">
     <meta property:'og:url' content="index.html">
@@ -29,7 +30,8 @@
                 <i class="fab fa-instagram" id="ig-encabezado"></i>
             </a>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav" style="padding-top: 0px;padding-bottom: 0px;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav"
+            style="padding-top: 0px;padding-bottom: 0px;">
             <div class="container-fluid" id="cont-header">
                 <a class="navbar-brand" href="#">
                     <img class="navbar-img" src="src/imagenes/valleverdelogo-copia.webp" alt="Valle Verde logo">
@@ -41,7 +43,8 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item page">
-                            <a class="nav-link active link-page" id="inicio" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link active link-page" id="inicio" aria-current="page"
+                                href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item page">
                             <a class="nav-link link-page" id="nosotros" href="nosotros.html">Nosotros</a>
@@ -69,31 +72,35 @@
                 <div class="cont-h1-section-1">
                     <h1 class="section-1__h1">Nosotros</h1>
                 </div>
-                
+
             </div>
         </div>
     </section>
     <section class="section-2n">
-        <div class="contain-h2n">
-            <h2 class="section2n__h2">¿Quiénes somos?</h2>
-        </div>
-        <div class="contain-pn">
-            <p class="section2n__p">
-                <div class="pn">
+        <div class="cont-button container-fluid">
+        <button class=".contain-pn-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".contain-pn"
+            aria-controls=".contain-pn" aria-expanded="false" aria-label="Toggle navigation" id="button-nosotros">
+            <h2 class=".section-2n__h2">¿Quienes somos?</h2>
+            <i class="fas fa-arrow-down"></i>
+        </button>
+    </div>
+        <div class="contain-pn collapse">
+            <div class="section2n__p">
+                <p class="pn">
                     Valle Verde es un local que ofrece productos y alimentos para mejorar la salud humana tanto
                     física
                     como mental. Fue fundada en 2011 por Marisa Viviana Marino, y se ubica dentro del Carrefour de
                     Moreno, Paso del Rey. <br>
-                </div>
-                <div class="pn">
+                </p>
+                <p class="pn">
                     Valle Verde se enfoca en contribuir a la sociedad mediante la venta de productos dietéticos a un
                     precio accesible. <br>
-                </div>
-                <div class="pn">
+                </p>
+                <p class="pn">
                     Por eso te recomendamos tener la experiencia de comprar nuestros productos acercándote a nuestra
                     sucursal o buscándonos en Pedidos Ya.
-                </div>
-            </p>
+                </p>
+            </div>
         </div>
     </section>
     <footer>
@@ -124,11 +131,14 @@
                             Datos de contacto
                         </li>
                         <li class="footer__li" id="footer-contact">
-                            <i class="fas fa-phone" id="icon-footer"></i><p class="contact-text">11 2981 0122</p>
+                            <div class="cont-icon-footer">
+                            <i class="fas fa-phone" id="icon-footer"><span style="font-family: --bs-body-font-family; padding:5px">11 2981 0122</span></i>
+                            <div>
                         </li>
                         <li class="footer__li" id="footer-contact">
-                            <i class="fas fa-message" id="icon-footer"></i>
-                            <p class="contact-text">valleverde@gmail.com</p>
+                            <div class="cont-icon-footer">
+                            <i class="fas fa-message" id="icon-footer"><span style="font-family: --bs-body-font-family; padding:5px">valleverde@gmail.com</span></i>
+                        </div>
                         </li>
                     </ul>
                 </div>
@@ -163,10 +173,10 @@
                                 <img class="footer-img" src="src/imagenes/visa.webp" alt="Visa">
                             </li>
                             <li class="footer__li" id="footer__img">
-                                <img class="footer-img" src="src/imagenes/pagofacil.webp" alt="Pago fácil">                                  
-                            </li>   
+                                <img class="footer-img" src="src/imagenes/pagofacil.webp" alt="Pago fácil">
+                            </li>
                             <li class="footer__li" id="footer__img">
-                                <img class="footer-img" src="src/imagenes/naranja.webp" alt="Tarjeta naranja">   
+                                <img class="footer-img" src="src/imagenes/naranja.webp" alt="Tarjeta naranja">
                             </li>
                             <li class="footer__li" id="footer__img">
                                 <img class="footer-img" src="src/imagenes/mercado-pago.webp" alt="Mercado pago">
@@ -183,8 +193,8 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-</script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

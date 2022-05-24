@@ -3,3 +3,8 @@
     justify-content: $alignH;
     align-items: $alignV;
 }
+@mixin flex ($flex, $alignH, $alignV){
+    flex: $flex;
+    justify-content: $alignH;
+    align-items: $alignV;
+}

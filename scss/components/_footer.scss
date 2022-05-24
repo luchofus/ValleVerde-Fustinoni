@@ -21,7 +21,6 @@
                         &:hover{
                             color: lightgreen;
                             border-bottom: solid 1px lightgreen;
-                            font-size: 25px;
                         }
                     }
                 }
@@ -32,16 +31,10 @@
                     width: 100%;
                     .cont-icon-footer{
                         width: 100%;
-                    }
-                    .contact-text{
-                        color: green;
-                        font-size: 100%;
-                        padding: 5px;
+                        #icon-footer{
+                            color: green;
+                            padding: 8px 0px;
                         }
-                    #icon-footer{
-                        color: green;
-                        font-size: 100%;
-                        padding: 5px;
                     }
                 }
                 #gps{

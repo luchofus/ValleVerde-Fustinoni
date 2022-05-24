@@ -24,7 +24,6 @@ header .cont-instagram .link-ig #ig-encabezado {
   }
 }
 header #nav #cont-header {
-  position: relative;
   height: 150px;
   background-color: rgb(144, 188, 179);
 }
@@ -124,7 +123,6 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 
 #cont-section-1 {
   position: relative;
-  bottom: 16px;
   height: 350px;
   width: 100%;
   background-color: black;
@@ -134,7 +132,6 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
   position: absolute;
   left: 0%;
   height: 100%;
-  background-color: aqua;
 }
 #cont-section-1 .cont-image-section-1 .section-1__img {
   width: 100%;
@@ -150,6 +147,7 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
   position: absolute;
   bottom: 45%;
   text-align: center;
+  margin: auto;
 }
 #cont-section-1 .cont-text-section-1 .cont-h1-section-1 .section-1__h1 {
   color: rgb(66, 194, 66);
@@ -162,6 +160,11 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 @media only screen and (max-width: 550px) {
   #cont-section-1 .cont-text-section-1 .cont-h1-section-1 .section-1__h1 {
     font-size: 25px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  #cont-section-1 .cont-text-section-1 .cont-h1-section-1 #section-1__h1-index {
+    font-size: 20px;
   }
 }
 #cont-section-1 .cont-text-section-1 .cont-p-section-1 {
@@ -181,6 +184,11 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 @media only screen and (max-width: 550px) {
   #cont-section-1 .cont-text-section-1 .cont-p-section-1 .section-1__p {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  #cont-section-1 .cont-text-section-1 .cont-p-section-1 #section-1__p-index {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -290,6 +298,7 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 120px;
 }
 .section-4 .cont-section-4 .cont-text-section-4 {
   margin-bottom: 50px;
@@ -311,6 +320,11 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
   padding: 20px 5px;
   color: black;
 }
+@media only screen and (max-width: 290px) {
+  .section-4 .cont-section-4 .cont-igs #instagram {
+    font-size: 20px;
+  }
+}
 .section-4 .cont-section-4 .cont-igs .link-ig {
   text-decoration: none;
   font-size: 25px;
@@ -320,6 +334,22 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 }
 .section-4 .cont-section-4 .cont-igs .link-ig:hover {
   color: white;
+}
+@media only screen and (max-width: 290px) {
+  .section-4 .cont-section-4 .cont-igs .link-ig {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .section-4 .cont-section-4 .cont-igs {
+    margin: 0px 15px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .section-4 .cont-section-4 {
+    height: 200px;
+    margin-top: 120px;
+  }
 }
 
 .container-fluid-footer #row-footer #box-footer .footer__ul #Titulo {
@@ -349,7 +379,6 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 .container-fluid-footer #row-footer #box-footer .footer__ul .footer__li .link-footer:hover {
   color: lightgreen;
   border-bottom: solid 1px lightgreen;
-  font-size: 25px;
 }
 .container-fluid-footer #row-footer #box-footer .footer__ul #footer-contact {
   display: flex;
@@ -360,15 +389,9 @@ header #nav #cont-header #navbarNav .navbar-nav .page #contacto:hover {
 .container-fluid-footer #row-footer #box-footer .footer__ul #footer-contact .cont-icon-footer {
   width: 100%;
 }
-.container-fluid-footer #row-footer #box-footer .footer__ul #footer-contact .contact-text {
+.container-fluid-footer #row-footer #box-footer .footer__ul #footer-contact .cont-icon-footer #icon-footer {
   color: green;
-  font-size: 100%;
-  padding: 5px;
-}
-.container-fluid-footer #row-footer #box-footer .footer__ul #footer-contact #icon-footer {
-  color: green;
-  font-size: 100%;
-  padding: 5px;
+  padding: 8px 0px;
 }
 .container-fluid-footer #row-footer #box-footer .footer__ul #gps iframe {
   width: 100%;
@@ -452,17 +475,17 @@ section #cont-section-2-buy #row-buy #box-buy #cont-p-buy {
 section #cont-section-2-buy #row-buy #box-buy #cont-p-buy .p-buy {
   text-align: justify;
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 660px) {
   section #cont-section-2-buy #row-buy #box-buy #cont-p-buy .p-buy {
     text-align: center;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 660px) {
   section #cont-section-2-buy #row-buy #box-buy {
     margin: 15px 0px;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 660px) {
   section #cont-section-2-buy #row-buy {
     display: flex;
     flex-direction: column;
@@ -470,7 +493,7 @@ section #cont-section-2-buy #row-buy #box-buy #cont-p-buy .p-buy {
     width: 100%;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 660px) {
   section #cont-section-2-buy {
     width: 100%;
     height: 1200px;
@@ -524,6 +547,36 @@ section .container-contact .cont-button #button-send {
 }
 .section-carrousel .cont-carrousel .accordion-item .accordion-header .accordion-button {
   color: green;
+}
+
+.section-2n {
+  margin: 100px 50px;
+  flex: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-2n .cont-button {
+  display: flex;
+  justify-content: center;
+}
+.section-2n .cont-button #button-nosotros {
+  border: solid 2px rgb(66, 194, 66);
+  background: white;
+  color: green;
+  padding: 10px;
+}
+.section-2n .cont-button #button-nosotros .section-2n__h2 {
+  color: rgb(66, 194, 66);
+  padding: 10px;
+}
+.section-2n .contain-pn {
+  margin-top: 40px;
+  font-size: 25px;
+  text-align: center;
+  transition: all 1s;
+}
+.section-2n .contain-pn .section2n__p .pn {
+  padding: 20px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+@import '../base/mixin';
+@import '../base/variables';
+.section-2n{
+    margin: 100px 50px;
+    @include flex (flex, center, center);
+    .cont-button{
+        display: flex;
+        justify-content: center;
+        #button-nosotros{
+            border: solid 2px $bg-color-principal;
+            background: white;
+            color: green;
+            padding: 10px;
+            .section-2n__h2{
+                color: $bg-color-principal;
+                padding: 10px;
+            }
+        }
+    }
+    .contain-pn{
+        margin-top: 40px;
+        font-size: 25px;
+        text-align: center;
+        transition: all 1s;
+        .section2n__p{
+            .pn{
+                padding: 20px 0px;
+            }
+        }
+    }
+}
