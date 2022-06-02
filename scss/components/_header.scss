@@ -1,124 +1,118 @@
 @import '../base/variables';
-@import '../base/mixin';
+@import '../base/extends';
 @import '../base/maps';
-header{
-    .cont-instagram{
-        width: 100%;
-        background-color: $bg-color-principal;
-        .link-ig{
-            padding: 5px 10px;
-            font-size: 20px;
-            #ig-encabezado{
-                color: black;
-            }
-        }
-    @media only screen and (max-width:990px) {
-        display: none;
-    }
-    }
-    #nav{
-        #cont-header{
-            height: 150px;
-            background-color: $bg-header;
-            .navbar-brand{
+
+header {
+    .header-container {
+        .row-ig {
+            @extend %align-item-center;
+            height: 20px;
+            background-color: $bg-color-principal;
+            .ig-container {
                 height: 100%;
-                width: 200px;
-                margin-left: 20px;
-                .navbar-img{
+                .cont-ig {
+                    @extend %align-item-center;
                     height: 100%;
-                    width: 100%;
-                }
-                @media only screen and (max-width:990px) {
-                    display: none;
-                }
-            }
-            .navbar-toggler{
-                font-size: 20px;
-                padding: 5px 5px;
-                border: none; 
-            }
-            #navbarNav{
-                @include flex-end (flex, flex-end, center);
-                .navbar-nav{
-                    .page{
-                        padding: 0px 25px;
-                        #inicio{
-                            color: map-get($link-page, color-letter);
-                            font-size: map-get($link-page, size-letter);
-                            transition: all 0,5s;
-                            &:hover{
-                                border-bottom: solid 2px $bg-color-principal;
-                                color: gray;
-                            }
+                    .icon-ig-link {
+                        .fa-instagram {
+                            color: black;
                         }
-                        #nosotros{
-                            color: map-get($link-page, color-letter);
-                            font-size: map-get($link-page, size-letter);
-                            transition: all 0,5s;
-                            &:hover{
-                                border-bottom: solid 2px $bg-color-principal;
-                                color: gray;
-                            }
-                        }
-                        #preguntas{
-                            color: map-get($link-page, color-letter);
-                            font-size: map-get($link-page, size-letter);
-                            transition: all 0,5s;
-                            &:hover{
-                                border-bottom: solid 2px $bg-color-principal;
-                                color: gray;
-                            }
-                        }   
-                        #comprar{
-                            color: map-get($link-page, color-letter);
-                            font-size: map-get($link-page, size-letter);
-                            transition: all 0,5s;
-                            &:hover{
-                                border-bottom: solid 2px $bg-color-principal;
-                                color: gray;
-                            }
-                        }
-                        #contacto{
-                            color: map-get($link-page, color-letter);
-                            font-size: map-get($link-page, size-letter);
-                            transition: all 0,5s;
-                            &:hover{
-                                border-bottom: solid 2px $bg-color-principal;
-                                color: gray;
-                            }
-                        }
-
-
-                    @media only screen and (max-width:990px) {
-                        padding: 25px 0px;
-                    }
                     }
                 }
             }
             @media only screen and (max-width:990px) {
-                background-color: $bg-color-principal;
-                height: 100%;
-                position: relative;
-                bottom: 0%;
+                display: none;
             }
         }
-        @media only screen and (max-width:990px) {
+        .row-logo {
+            max-height: 140px;
+            background-color: rgb(1, 171, 82);
+            .logo-container {
+                @extend %justify-center;
+                .cont-logo {
+                    .logo-link {
+                        .logo-valle-verde {
+                            height: 100px;
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+            .search-container {
+                @extend %align-item-center;
+                justify-content: left;
+                .search {
+                    margin-left: 20px;
+                    width: 75%;
+                    .input-search {
+                        border: solid 1px rgb(1, 171, 82);
+                        &::placeholder {
+                            color: rgb(1, 171, 82);
+                        }
+                        .button-search {
+                            color: white;
+                            .icon-search {
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            @media only screen and (max-width:990px) {
+                display: none;
+            }
+        }
+        .row-nav{
+            #navBar{
+                #cont-nav{
+                    background-color: $bg-color-principal;
+                    #button-nav{
+                        font-size: 20px;
+                        margin: 10px;
+                        border: none; 
+                        #bars{
+                            font-size: 30px;
+                            color: black;
+                        }
+                    }
+                    .nav{
+                        background-color: lightgreen;
+                        .ul-nav{
+                            margin: 0 auto;
+                            .li-nav{
+                                margin: 5px 10px;
+                                line-height: 10px;
+                                .navbar-link{
+                                    font-size: map-get($link-nav-style, size-letter);
+                                    color: map-get($link-nav-style, color-letter);
+                                    padding: map-get($link-nav-style, padding-letter);
+                                    border-right: map-get($link-nav-style, border-letter);
+                                    &:hover{
+                                        color: rgb(134, 201, 134);
+                                    }
+                                    @media only screen and (max-width:990px){
+                                        font-size: 23px;
+                                        padding: 50px 5px;
+                                        border: none;
+                                    }
+                                }
+                            }
+                            .li-contact{
+                                border-right: none;
+                            }
+                            @media only screen and (max-width:990px){
+                                margin-left: 0;
+                            }
+                        }
+                        @media only screen and (max-width:990px){
+                        }
+                    }
+                }
+            }
+        }
+        @media only screen and (max-width:990px){
             position: fixed;
-            width: 100vw;
-            z-index: 10;
-            background: green;
+            z-index: 2222222;
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

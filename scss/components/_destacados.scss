@@ -1,0 +1,64 @@
+section {
+    .cont-seccion-destacados {
+        margin-top: 100px;
+        .cont-h2-destacados {
+            margin: 40px;
+            border-bottom: solid 1px rgb(223, 220, 220);
+            .h2-destacados {
+                text-align: center;
+                font-size: 25px;
+            }
+        }
+    }
+    .cont-productos{
+        .row-productos{
+            display: flex;
+            justify-content: center;
+            margin: 0px 80px;
+            .box-productos{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                margin: 20px 0px;  
+                transition: all 1s; 
+                &:hover{
+                    transform: translateY(-10px);
+                }
+                .cont-img-destacados{
+                    margin-bottom: 10px;
+                    .img-destacados{
+                        width: 170px;
+                        height: 90px;
+                        transition: all 0.5s;
+                        &:hover{
+                            height: 100px;
+                        }
+                        @media only screen and (min-width:420px) and (max-width:550px){
+                            width: 170px;
+                            height: 90px;
+                        }
+                        @media only screen and (max-width:410px){
+                            width: 100px;
+                            height: 50px;
+                        }
+                    }
+                }
+                .text-destacados{
+                    text-align: center;
+                    .text-destacados_p{
+                        display: flex;
+                        justify-content: center;
+                        font-size: 14px;
+                    }
+                }
+            }
+            @media only screen and (max-width:550px){
+                margin: 0px;
+            }
+            @media only screen and (min-width:551px) and (max-width:990px){
+                margin: 0px;
+            } 
+        }
+    }
+}

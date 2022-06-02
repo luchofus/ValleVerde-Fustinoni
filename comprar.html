@@ -23,43 +23,94 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="cont-instagram">
-            <a class="link-ig" href="https://www.instagram.com/dieteticavalle_verde/" target="_BLANK">
-                <i class="fab fa-instagram" id="ig-encabezado"></i>
-            </a>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav" style="padding-top: 0px;padding-bottom: 0px;">
-            <div class="container-fluid" id="cont-header">
-                <a class="navbar-brand" href="#">
-                    <img class="navbar-img" src="src/imagenes/valleverdelogo-copia.webp" alt="Valle Verde logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item page">
-                            <a class="nav-link active link-page" id="inicio" aria-current="page" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item page">
-                            <a class="nav-link link-page" id="nosotros" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item page">
-                            <a class="nav-link link-page" id="preguntas" href="preguntas.html">Preguntas frecuentes</a>
-                        </li>
-                        <li class="nav-item page">
-                            <a class="nav-link link-page" id="comprar" href="comprar.html">¿Cómo comprar?<a>
-                        </li>
-                        <li class="nav-item page">
-                            <a class="nav-link link-page" id="contacto" href="contacto.html">Contacto<a>
-                        </li>
-                    </ul>
+     <!--Header-->
+     <header>
+        <!--Container header-->
+        <div class="container-fluid header-container">
+            <!--Fila instagram-->
+            <div class="row row-ig">
+                <div class="col col-lg-12 ig-container">
+                    <!--Contenedor instagram-->
+                    <div class="cont-ig">
+                        <!--Link instagram-->
+                        <a class="icon-ig-link" href="https://www.instagram.com/dieteticavalle_verde/" target="_BLANK">
+                            <!--Icono instagram-->
+                            <i class="fab fa-instagram" id="ig-encabezado"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </nav>
+            <!--Fila logo y buscador-->
+            <div class="row row-logo">
+                <div class="logo-container col col-lg-2">
+                    <!--Logo container-->
+                    <div class="cont-logo">
+                        <!--Logo link index-->
+                        <a class="logo-link" href="index.html">
+                            <!--Imagen logo link index-->
+                            <img class="logo-valle-verde" src="valleverde.png" alt="Valle verde logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="search-container col col-lg-10">
+                    <!--Buscador-->
+                    <form class="d-flex search" role="search">
+                        <!--Input buscador-->
+                        <input class="form-control me-2 input-search" type="search" placeholder="¿Qué estás buscando?"
+                            aria-label="Search">
+                        <!--Button buscador-->
+                        <button type="submit" class="button-search btn search-input-submit" value="Buscar"
+                            aria-label="Buscar">
+                            <i class="fas fa-search icon-search" style="color: white;"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!--Fila nav-->
+            <div class="row row-nav">
+                <!--Nav-->
+                <nav class="navbar navbar-expand-lg bg-light" id="navBar"
+                    style="padding-top: 0px;padding-left: 0px;padding-bottom: 0px;padding-right: 0px;">
+                    <!--Nav container-->
+                    <div class="container-fluid" id="cont-nav" style="padding-right: 0px;padding-left: 0px;">
+                        <!--Button nav responsive-->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation" id="button-nav">
+                            <!--Icono bars responsive-->
+                            <i class="fas fa-bars" id="bars"></i>
+                        </button>
+                        <!--UL container-->
+                        <div class="collapse navbar-collapse nav" id="navbarNav">
+                            <!--Ul nav-->
+                            <ul class="navbar-nav ul-nav">
+                                <!--Lista nav-->
+                                <li class="nav-item li-nav">
+                                    <!--Link lista nav-->
+                                    <a class="nav-link navbar-link" aria-current="page" href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link navbar-link" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link navbar-link" href="preguntas.html">Preguntas frecuentes</a>
+                                </li>
+                                <li class="nav-item li-nav">
+                                    <a class="nav-link navbar-link" href="comprar.html">¿Cómo comprar?</a>
+                                </li>
+                                <li class="nav-item li-nav li-contact">
+                                    <a class="nav-link navbar-link" href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                            <!--Fin de UL-->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </header>
+    <!--Fin de header-->
+
     <section>
         <div class="container-fluid" id="cont-section-1">
             <div class="cont-image-section-1">

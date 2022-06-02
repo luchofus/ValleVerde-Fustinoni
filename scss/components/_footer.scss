@@ -1,82 +1,160 @@
-@import '../base/variables';
-@import '../base/extends';
-.container-fluid-footer{
-    width: 100vw;
-    background: $bg-color-principal;
-    margin-top: 150px;
-    #row-footer{
-        width: 100%;
-        #box-footer{
-            .footer__ul{
-                list-style: none;
-                #Titulo{
-                    @extend %title;
-                }
-                .footer__li{
-                    padding: 10px 0px;
-                    .link-footer{
-                        text-decoration: none;
-                        color: green;
-                        transition: all 0.2s;
-                        &:hover{
-                            color: lightgreen;
-                            border-bottom: solid 1px lightgreen;
-                        }
-                    }
-                }
-                #footer-contact{
-                    display: flex;
-                    flex-direction: row;
-                    max-width: 200px;
-                    width: 100%;
-                    .cont-icon-footer{
-                        width: 100%;
-                        #icon-footer{
-                            color: green;
-                            padding: 8px 0px;
-                        }
-                    }
-                }
-                #gps{
-                    iframe{
-                        width: 100%;
-                    }
-                }
-            }
-        }
-    }
-    #row-footer-2{
-        width: 100%;
-        #box-footer-2{
-            .footer__ul{
-                list-style:none;
-                #Titulo{
-                    color: white;
-                    font-size: 18px;
-                }
-                .cont-pay{
-                    display: flex;
-                    flex-direction: row;
-                    height: 80px;
-                    #footer__img{
-                        height: 100%;
-                        .footer-img{
-                            width: 100%;
-                            height: 20px;
-                            padding: 0px 15px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-    #copyright{
-        width: 100%;
-        #copy{
+@import '../base/maps';
+footer {
+    margin-top: 100px;
+
+    .cont-footer {
+        background-color: lightgreen;
+        ;
+        .row-1-footer {
+            margin: 0px;
+            border-bottom: solid 1px rgb(1, 171, 82);
             display: flex;
-            justify-content: flex-end;
-            .text-copy{
-                color: white;
+            justify-content: center;
+            .col-1-footer {
+                margin: 20px 0px;
+                .cont-navegation {
+                    .h3-navegation {
+                        padding-left: 31px;
+                        font-size: 18px;
+                        color: white;
+                        @media only screen and (max-width:450px){
+                            padding-left: 8px;
+                        }
+                    }
+                    .ul-navegation {
+                        list-style: none;
+                        .li-navegation {
+                            padding: 15px 0px;
+                            .link-navegation {
+                                color: map-get($link-nav-style, color-letter);
+                                text-decoration: none;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                &:hover{
+                                    color: green;
+                                }
+                            }
+                        }
+                        @media only screen and (max-width:450px){
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+            .col-2-footer {
+                margin: 20px 0px;
+                .cont-contact {
+                    .h3-contact {
+                        padding-left: 31px;
+                        font-size: 18px;
+                        color: white;
+                        @media only screen and (max-width:450px){
+                            padding-left: 8px;
+                        }
+                    }
+                    .ul-contact {
+                        list-style: none;
+                        .li-contact {
+                            padding: 15px 0px;
+                            .icon-contact {
+                                color: rgb(1, 171, 82);
+                            }
+                            .link-contact {
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                color: rgb(1, 171, 82);
+                                text-decoration: none;
+                                padding: 0px 4px;
+                            }
+                            #gmail{
+                                @media only screen and (max-width:450px){
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                        @media only screen and (max-width:450px){
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+            .col-3-footer {
+                margin: 20px 0px;
+                .cont-redes {
+                    .h3-redes {
+                        padding-left: 31px;
+                        font-size: 18px;
+                        color: white;
+                        @media only screen and (max-width:450px){
+                            padding-left: 8px;
+                        }
+                    }
+                    .ul-redes {
+                        list-style: none;
+                        .li-redes {
+                            .link-redes {
+                                margin-top: 10px;
+                                margin-left: 34px;
+                                text-decoration: none;
+                                font-size: 19px;
+                                .icon-redes {
+                                    padding: 10px;
+                                    background-color: rgb(1, 171, 82);
+                                    color: white;
+                                    border: solid 1px rgb(1, 171, 82);
+                                    border-radius: 20px;
+                                }
+                                @media only screen and (max-width:450px){
+                                    margin-top: 10px;
+                                    margin-left: 8px;
+                                    text-decoration: none;
+                                    font-size: 19px;  
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row-2-footer{
+            margin: 0px 20px;
+            .col-1-footer-pay{
+                margin: 20px 0px;
+                .cont-pay{
+                    .h3-pay{
+                        padding-left: 9px;
+                        font-size: 18px;
+                        color: white;
+                        @media only screen and (max-width:450px){
+                            padding-left: 8px;
+                        }
+                    }
+                    .cont-img-pay{
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 2px;
+                        margin-top: 10px;;
+                        .img-pay{
+                            padding: 0px 10px;
+                            width: 45px;
+                            height: 15px;
+                        }
+                    }
+                }
+            }
+            @media only screen and (max-width:450px){
+                margin-left: 10px;
+            }
+        }
+        .row-3-footer{
+            margin-top: 80px;
+            background: rgb(1, 171, 82);
+            .col-1-footer-copy{
+                margin: 20px 0px;
+                .cont-copy{
+                    .p-copy{
+                        font-size: 16px;
+                        color: lightgreen;
+                    }
+                }
             }
         }
     }
