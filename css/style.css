@@ -8,83 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-#cont-section-1 {
-  position: relative;
-  height: 350px;
-  width: 100%;
-  background-color: black;
-}
-#cont-section-1 .cont-image-section-1 {
-  width: 100%;
-  position: absolute;
-  left: 0%;
-  height: 100%;
-}
-#cont-section-1 .cont-image-section-1 .section-1__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-#cont-section-1 .cont-text-section-1 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-#cont-section-1 .cont-text-section-1 .cont-h1-section-1 {
-  position: absolute;
-  bottom: 45%;
-  text-align: center;
-  margin: auto;
-}
-#cont-section-1 .cont-text-section-1 .cont-h1-section-1 .section-1__h1 {
-  color: rgb(66, 194, 66);
-}
-@media only screen and (min-width: 551px) and (max-width: 990px) {
-  #cont-section-1 .cont-text-section-1 .cont-h1-section-1 .section-1__h1 {
-    font-size: 30px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  #cont-section-1 .cont-text-section-1 .cont-h1-section-1 .section-1__h1 {
-    font-size: 25px;
-  }
-}
-@media only screen and (max-width: 290px) {
-  #cont-section-1 .cont-text-section-1 .cont-h1-section-1 #section-1__h1-index {
-    font-size: 20px;
-  }
-}
-#cont-section-1 .cont-text-section-1 .cont-p-section-1 {
-  position: absolute;
-  bottom: 20%;
-  text-align: center;
-}
-#cont-section-1 .cont-text-section-1 .cont-p-section-1 .section-1__p {
-  color: rgb(228, 225, 225);
-  font-size: 30px;
-}
-@media only screen and (min-width: 550px) and (max-width: 990px) {
-  #cont-section-1 .cont-text-section-1 .cont-p-section-1 .section-1__p {
-    font-size: 25px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  #cont-section-1 .cont-text-section-1 .cont-p-section-1 .section-1__p {
-    font-size: 20px;
-  }
-}
-@media only screen and (max-width: 290px) {
-  #cont-section-1 .cont-text-section-1 .cont-p-section-1 #section-1__p-index {
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  #cont-section-1 .cont-text-section-1 .cont-p-section-1 {
-    position: absolute;
-    bottom: 20%;
-  }
-}
-
 .cont-carousel .carousel-item {
   position: relative;
   height: 400px;
@@ -383,6 +306,11 @@ section .cont-section-3-index .box-section-3 .cont-text-section-3 .p-section-3 {
     height: 100%;
   }
 }
+@media only screen and (max-width: 990px) {
+  section .cont-section-3-index #box-1-section-3 {
+    margin-top: 20px;
+  }
+}
 @media only screen and (max-width: 550px) {
   section .cont-section-3-index {
     display: flex;
@@ -462,76 +390,6 @@ section .cont-section-4 .cont-igs .link-ig:hover {
   }
 }
 
-section #cont-section-2-buy {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 650px;
-  margin-top: 150px;
-}
-section #cont-section-2-buy #row-buy {
-  display: flex;
-  justify-content: center;
-  height: 100%;
-}
-section #cont-section-2-buy #row-buy #box-buy {
-  background: rgb(247, 243, 243);
-  height: 100%;
-  border: solid 1px black;
-  margin: 0px 15px;
-  transition: all 1s;
-}
-section #cont-section-2-buy #row-buy #box-buy:hover {
-  background-color: rgb(231, 227, 227);
-  transform: translateY(-10px);
-  box-shadow: 0px 10px 7px 0px rgb(66, 194, 66);
-}
-section #cont-section-2-buy #row-buy #box-buy #cont-h2-buy {
-  text-align: center;
-  padding: 5px;
-  height: 50px;
-}
-section #cont-section-2-buy #row-buy #box-buy #cont-h2-buy .h2-buy {
-  font-size: 20px;
-  height: 100%;
-  color: rgb(66, 194, 66);
-}
-section #cont-section-2-buy #row-buy #box-buy #cont-h2-buy .h2-buy #icon-buy {
-  color: rgb(66, 194, 66);
-}
-section #cont-section-2-buy #row-buy #box-buy #cont-p-buy {
-  padding: 20px 0px;
-  text-align: justify;
-  height: 80%;
-}
-section #cont-section-2-buy #row-buy #box-buy #cont-p-buy .p-buy {
-  text-align: justify;
-}
-@media only screen and (max-width: 660px) {
-  section #cont-section-2-buy #row-buy #box-buy #cont-p-buy .p-buy {
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 660px) {
-  section #cont-section-2-buy #row-buy #box-buy {
-    margin: 15px 0px;
-  }
-}
-@media only screen and (max-width: 660px) {
-  section #cont-section-2-buy #row-buy {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 660px) {
-  section #cont-section-2-buy {
-    width: 100%;
-    height: 1200px;
-  }
-}
-
 section .container-contact {
   margin: 45px 120px 0px 120px;
   background-color: white;
@@ -565,20 +423,6 @@ section .container-contact .cont-button #button-send {
   section .container-contact {
     margin: 45px 40px 0px 40px;
   }
-}
-
-.section-carrousel {
-  margin-top: 100px;
-}
-.section-carrousel .cont-carrousel {
-  padding: 30px;
-}
-.section-carrousel .cont-carrousel .accordion-item {
-  border: solid 2px green;
-  padding: 10px;
-}
-.section-carrousel .cont-carrousel .accordion-item .accordion-header .accordion-button {
-  color: green;
 }
 
 header .header-container .row-logo .search-container, header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-ig {
@@ -824,11 +668,6 @@ footer .cont-footer .row-2-footer .col-1-footer-pay .cont-pay .h3-pay {
   font-size: 18px;
   color: white;
 }
-@media only screen and (max-width: 450px) {
-  footer .cont-footer .row-2-footer .col-1-footer-pay .cont-pay .h3-pay {
-    padding-left: 8px;
-  }
-}
 footer .cont-footer .row-2-footer .col-1-footer-pay .cont-pay .cont-img-pay {
   display: flex;
   flex-wrap: wrap;
@@ -839,6 +678,11 @@ footer .cont-footer .row-2-footer .col-1-footer-pay .cont-pay .cont-img-pay .img
   padding: 0px 10px;
   width: 45px;
   height: 15px;
+}
+@media only screen and (max-width: 990px) {
+  footer .cont-footer .row-2-footer .col-1-footer-pay {
+    padding-left: 8px;
+  }
 }
 @media only screen and (max-width: 450px) {
   footer .cont-footer .row-2-footer {
@@ -1002,6 +846,15 @@ section .cont-section-2-nosotros .text-container-nosotros .text-nosotros {
   }
 }
 
+section .cont-image-nosotros {
+  margin-bottom: 50px;
+  text-align: center;
+}
+section .cont-image-nosotros .image-nosotros {
+  height: 250px;
+  width: 90%;
+}
+
 section .cont-section-3-nosotros {
   margin-bottom: 15px;
   flex: flex;
@@ -1128,6 +981,217 @@ section .cont-section-6-nosotros .text-container-nosotros-3 .cont-iframe iframe 
   width: 90%;
   padding: 30px 0px;
   height: 100%;
+}
+
+section .cont-section-1-preguntas .cont-h1-preguntas {
+  margin: 30px;
+  width: 45%;
+  display: inline-block;
+  border-bottom: solid 3px rgb(46, 214, 46);
+}
+section .cont-section-1-preguntas .cont-h1-preguntas .h1-preguntas {
+  font-size: 40px;
+  color: rgb(46, 214, 46);
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-1-preguntas .cont-h1-preguntas .h1-preguntas {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-preguntas .cont-h1-preguntas {
+    text-align: center;
+    margin-top: 100px;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-preguntas {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+section .cont-section-2-preguntas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 35px;
+  background-color: rgb(151, 248, 151);
+}
+section .cont-section-2-preguntas .cont-accordion {
+  margin: 50px 0px;
+  width: 50%;
+  border-right: solid 1px rgb(46, 214, 46);
+}
+section .cont-section-2-preguntas .cont-accordion .h2-accordion {
+  text-align: start;
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+  margin-left: 40px;
+  display: inline-block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas .cont-accordion .h2-accordion {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 30px;
+    padding: 0px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+section .cont-section-2-preguntas .cont-accordion .accordion {
+  border: solid 2px rgb(2, 172, 2);
+  width: auto;
+  margin: 5px 40px;
+}
+section .cont-section-2-preguntas .cont-accordion .accordion .accordion-item .accordion-question-cont .accordion-question {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: green;
+  font-size: 20px;
+}
+section .cont-section-2-preguntas .cont-accordion .accordion .accordion-item .accordion-answer-cont .accordion-answer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas .cont-accordion .accordion .accordion-item .accordion-answer-cont .accordion-answer {
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas .cont-accordion .accordion {
+    border: solid 2px rgb(2, 172, 2);
+    width: auto;
+    margin: 30px 5px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas .cont-accordion {
+    width: 100%;
+    border-bottom: solid 1px rgb(46, 214, 46);
+    border-right: none;
+    text-align: center;
+    margin: 15px 0px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas .cont-accordion-1 {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas .cont-accordion-2 {
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+  }
+}
+
+section .cont-section-1-comprar .cont-h1-comprar {
+  display: inline-block;
+  width: 45%;
+  margin: 30px;
+  border-bottom: solid 3px rgb(46, 214, 46);
+}
+section .cont-section-1-comprar .cont-h1-comprar .h1-comprar {
+  font-size: 40px;
+  color: rgb(46, 214, 46);
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-comprar .cont-h1-comprar .h1-comprar {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-comprar .cont-h1-comprar {
+    display: inline-block;
+    margin: 80px 0px 5px 0px;
+    width: 80%;
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-comprar {
+    margin: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+section .cont-section-2-comprar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section .cont-section-2-comprar .box-section-2 {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: solid 2px rgb(46, 214, 46);
+  transition: all 1s;
+  width: 33.3%;
+}
+section .cont-section-2-comprar .box-section-2:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 10px 0px rgb(46, 214, 46);
+}
+section .cont-section-2-comprar .box-section-2 .cont-text-section-2 {
+  margin: 10px;
+}
+section .cont-section-2-comprar .box-section-2 .cont-text-section-2 .icon-section-2 {
+  border: solid 2px rgb(46, 214, 46);
+  border-radius: 100%;
+  padding: 10px;
+  color: rgb(46, 214, 46);
+}
+section .cont-section-2-comprar .box-section-2 .cont-text-section-2 .h2-section-2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  color: rgb(46, 214, 46);
+}
+section .cont-section-2-comprar .box-section-2 .cont-text-section-2 .section-2-text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-2-comprar .box-section-2 .cont-text-section-2 .section-2-text {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-2-comprar .box-section-2 {
+    margin: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: solid 2px rgb(46, 214, 46);
+    transition: all 1s;
+    width: 85%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-2-comprar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+@import '../base/variables';
+section{
+    .cont-section-1-comprar{
+        .cont-h1-comprar{
+            display: inline-block;
+            width: 45%;
+            margin: 30px;
+            border-bottom: solid 3px $text-color-principal;
+            .h1-comprar{
+                font-size: 40px;
+                color: $text-color-principal;
+                @media only screen and (max-width:990px){
+                    font-size: 28px;
+                }
+            }
+            @media only screen and (max-width:990px){
+                display: inline-block;
+                margin: 80px 0px 5px 0px;
+                width: 80%;
+                border-bottom: none;
+            }
+        }
+        @media only screen and (max-width:990px){
+            margin: 0px 5px 5px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

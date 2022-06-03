@@ -123,9 +123,6 @@ footer {
                         padding-left: 9px;
                         font-size: 18px;
                         color: white;
-                        @media only screen and (max-width:450px){
-                            padding-left: 8px;
-                        }
                     }
                     .cont-img-pay{
                         display: flex;
@@ -138,6 +135,9 @@ footer {
                             height: 15px;
                         }
                     }
+                }
+                @media only screen and (max-width:990px){
+                    padding-left: 8px;
                 }
             }
             @media only screen and (max-width:450px){
