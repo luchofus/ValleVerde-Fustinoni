@@ -1,0 +1,31 @@
+@import '../base/mixin';
+@import '../base/variables';
+section{
+    .cont-section-3-nosotros{
+        margin-bottom: 15px;
+        @include flex (flex, flex-start, center);
+        .h2-nosotros-container{
+            display: inline-block;
+            width: 30%;
+            margin: 0px 10px;
+            border-bottom: solid 2px lightgreen;
+            .h2-nosotros{
+                font-size: 25px;
+                color: $text-color-principal;
+            }
+            @media only screen and (max-width:990px){
+                display: inline-block;
+                margin-top: 5px;
+                width: 80%;
+                border-bottom: none;
+            }
+        }
+        @media only screen and (max-width:990px){
+            margin: 0px 5px 5px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}

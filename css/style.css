@@ -581,36 +581,6 @@ section .container-contact .cont-button #button-send {
   color: green;
 }
 
-.section-2n {
-  margin: 100px 50px;
-  flex: flex;
-  justify-content: center;
-  align-items: center;
-}
-.section-2n .cont-button {
-  display: flex;
-  justify-content: center;
-}
-.section-2n .cont-button #button-nosotros {
-  border: solid 2px rgb(66, 194, 66);
-  background: white;
-  color: green;
-  padding: 10px;
-}
-.section-2n .cont-button #button-nosotros .section-2n__h2 {
-  color: rgb(66, 194, 66);
-  padding: 10px;
-}
-.section-2n .contain-pn {
-  margin-top: 40px;
-  font-size: 25px;
-  text-align: center;
-  transition: all 1s;
-}
-.section-2n .contain-pn .section2n__p .pn {
-  padding: 20px 0px;
-}
-
 header .header-container .row-logo .search-container, header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-ig {
   display: flex;
   align-items: center;
@@ -974,6 +944,190 @@ section .cont-icon-wsp .btn-wsp .icon-wsp {
   border: solid 1px rgb(57, 218, 57);
   border-radius: 50px;
   box-shadow: 5px 5px 20px 0px black;
+}
+
+section .cont-section-1-nosotros {
+  margin: 50px 0px 5px 0px;
+  flex: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+section .cont-section-1-nosotros .cont-h1-nosotros {
+  display: inline-block;
+  width: 50%;
+  margin: 0px 10px;
+  border-bottom: solid 2px lightgreen;
+}
+section .cont-section-1-nosotros .cont-h1-nosotros .h1-nosotros {
+  font-size: 25px;
+  color: rgb(46, 214, 46);
+}
+@media only screen and (min-width: 550px) and (max-width) {
+  section .cont-section-1-nosotros .cont-h1-nosotros .h1-nosotros {
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-nosotros .cont-h1-nosotros {
+    display: inline-block;
+    margin: 80px 0px 5px 0px;
+    width: 80%;
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-nosotros {
+    margin: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+section .cont-section-2-nosotros {
+  margin: 30px 0px;
+}
+section .cont-section-2-nosotros .text-container-nosotros {
+  margin: 10px;
+}
+section .cont-section-2-nosotros .text-container-nosotros .text-nosotros {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: black;
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-2-nosotros .text-container-nosotros {
+    text-align: center;
+  }
+}
+
+section .cont-section-3-nosotros {
+  margin-bottom: 15px;
+  flex: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+section .cont-section-3-nosotros .h2-nosotros-container {
+  display: inline-block;
+  width: 30%;
+  margin: 0px 10px;
+  border-bottom: solid 2px lightgreen;
+}
+section .cont-section-3-nosotros .h2-nosotros-container .h2-nosotros {
+  font-size: 25px;
+  color: rgb(46, 214, 46);
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-3-nosotros .h2-nosotros-container {
+    display: inline-block;
+    margin-top: 5px;
+    width: 80%;
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-3-nosotros {
+    margin: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+section .cont-section-4-nosotros {
+  margin: 30px 0px;
+}
+section .cont-section-4-nosotros .text-container-nosotros-2 {
+  margin: 10px;
+}
+section .cont-section-4-nosotros .text-container-nosotros-2 .text-nosotros-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: black;
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-4-nosotros .text-container-nosotros-2 {
+    text-align: center;
+  }
+}
+section .cont-section-4-nosotros .carousel-container-nosotros .carousel-marcas-container {
+  border-top: solid 4px #8ff78f;
+  border-bottom: solid 4px #8ff78f;
+}
+section .cont-section-4-nosotros .carousel-container-nosotros .carousel-marcas-container .carousel-marcas {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+section .cont-section-4-nosotros .carousel-container-nosotros .carousel-marcas-container .carousel-marcas .carousel-item {
+  height: 120px;
+}
+section .cont-section-4-nosotros .carousel-container-nosotros .carousel-marcas-container .carousel-marcas .carousel-item #carousel-marcas-img {
+  background-color: white;
+  height: 120px;
+}
+
+section .cont-section-5-nosotros {
+  margin: 30px 0px;
+  flex: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+section .cont-section-5-nosotros .h3-nosotros-container {
+  display: inline-block;
+  width: 40%;
+  margin: 0px 10px;
+  margin-top: 50px;
+  border-bottom: solid 2px lightgreen;
+}
+section .cont-section-5-nosotros .h3-nosotros-container .h3-nosotros {
+  font-size: 25px;
+  color: rgb(46, 214, 46);
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-5-nosotros .h3-nosotros-container {
+    display: inline-block;
+    margin-top: 5px;
+    width: 80%;
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-5-nosotros {
+    margin: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+section .cont-section-6-nosotros {
+  margin: 30px 0px;
+}
+section .cont-section-6-nosotros .text-container-nosotros-3 {
+  margin: 10px;
+}
+section .cont-section-6-nosotros .text-container-nosotros-3 .text-nosotros-3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: black;
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-6-nosotros .text-container-nosotros-3 {
+    text-align: center;
+  }
+}
+section .cont-section-6-nosotros .text-container-nosotros-3 .cont-iframe {
+  text-align: center;
+}
+section .cont-section-6-nosotros .text-container-nosotros-3 .cont-iframe iframe {
+  width: 90%;
+  padding: 30px 0px;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

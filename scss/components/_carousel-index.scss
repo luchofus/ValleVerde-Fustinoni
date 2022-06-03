@@ -1,3 +1,4 @@
+@import '../base/variables';
 .cont-carousel {
     .carousel-item {
         position: relative;
@@ -19,7 +20,7 @@
                 text-align: center;
                 .h1-carousel {
                     font-size: 45px;
-                    color: rgb(46, 214, 46);
+                    color: $text-color-principal;
                     @media only screen and (min-width:550px) and (max-width:800px){
                         font-size: 35px;
                     }

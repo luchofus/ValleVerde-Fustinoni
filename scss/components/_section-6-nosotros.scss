@@ -1,0 +1,24 @@
+section{
+    .cont-section-6-nosotros{
+        margin: 30px 0px;
+        .text-container-nosotros-3{
+            margin: 10px;
+                .text-nosotros-3{
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 22px;
+                    color: black;
+                }
+                @media only screen and (max-width:990px){
+                    text-align: center;
+                }
+            .cont-iframe{
+                text-align: center;
+                iframe{
+                    width: 90%;
+                    padding: 30px 0px;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

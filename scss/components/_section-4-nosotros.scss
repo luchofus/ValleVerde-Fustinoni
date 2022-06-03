@@ -1,0 +1,35 @@
+section{
+    .cont-section-4-nosotros{
+        margin: 30px 0px;
+        .text-container-nosotros-2{
+            margin: 10px;
+            .text-nosotros-2{
+                font-family: Arial, Helvetica, sans-serif;   
+                font-size: 22px;
+                color: black;
+            }
+            @media only screen and (max-width:990px){
+                text-align: center;
+            }
+        }
+        .carousel-container-nosotros{
+            .carousel-marcas-container{
+                border-top: solid 4px #8ff78f;
+                border-bottom: solid 4px #8ff78f;
+                .carousel-marcas{
+                    width: 25%;
+                    margin: 0 auto;
+                    margin-top: 35px;
+                    margin-bottom: 35px;
+                    .carousel-item{
+                        height: 120px;
+                        #carousel-marcas-img{
+                            background-color: white;
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
