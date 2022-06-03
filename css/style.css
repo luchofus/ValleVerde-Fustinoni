@@ -1017,30 +1017,31 @@ section .cont-section-2-preguntas {
   flex-direction: row;
   justify-content: center;
   margin-top: 35px;
-  background-color: rgb(151, 248, 151);
 }
 section .cont-section-2-preguntas .cont-accordion {
-  margin: 50px 0px;
   width: 50%;
-  border-right: solid 1px rgb(46, 214, 46);
+  border-right: solid 3px rgb(46, 214, 46);
 }
 section .cont-section-2-preguntas .cont-accordion .h2-accordion {
   text-align: start;
   font-size: 25px;
-  color: white;
+  color: black;
   padding: 5px;
   margin-left: 40px;
-  display: inline-block;
+  width: 45%;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-bottom: solid 1px rgb(194, 192, 192);
 }
 @media only screen and (max-width: 550px) {
   section .cont-section-2-preguntas .cont-accordion .h2-accordion {
     text-align: center;
     font-size: 25px;
-    color: white;
     margin-left: 0px;
     margin-top: 30px;
     padding: 0px;
+    display: inline-block;
+    border: none;
+    width: 90%;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 }
@@ -1082,6 +1083,9 @@ section .cont-section-2-preguntas .cont-accordion .accordion .accordion-item .ac
   section .cont-section-2-preguntas .cont-accordion-1 {
     margin-top: 0px;
   }
+}
+section .cont-section-2-preguntas .cont-accordion-2 {
+  border-right: none;
 }
 @media only screen and (max-width: 550px) {
   section .cont-section-2-preguntas .cont-accordion-2 {
