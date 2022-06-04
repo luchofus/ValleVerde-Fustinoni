@@ -65,12 +65,12 @@ body {
 }
 @media only screen and (min-width: 550px) and (max-width: 990px) {
   .btns-carousel .cont-carousel .carousel-item .text-carousel-1 {
-    margin-top: 65px;
+    margin-top: 58px;
   }
 }
 @media only screen and (max-width: 549px) {
   .btns-carousel .cont-carousel .carousel-item .text-carousel-1 {
-    margin-top: 75px;
+    margin-top: 58px;
     height: 300px;
   }
 }
@@ -192,9 +192,16 @@ body {
     margin-top: 58px;
   }
 }
-@media only screen and (max-width: 990px) {
+@media only screen and (min-width: 551px) and (max-width: 990px) {
   .btns-carousel .carousel-control-prev, .btns-carousel .carousel-control-next {
-    margin-top: 58px;
+    margin-top: 65px;
+    position: absolute;
+    z-index: 101010010101;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .btns-carousel .carousel-control-prev, .btns-carousel .carousel-control-next {
+    margin-top: 75px;
     position: absolute;
     z-index: 101010010101;
   }
