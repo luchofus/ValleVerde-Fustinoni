@@ -1,0 +1,50 @@
+@import '../base/variables';
+section {
+    .cont-contact-form {
+        width: 55%;
+        background-color: $bg-color-principal;
+        border: solid 1px $bg-color-principal;
+        border-radius: 20px;
+        .cont-input {
+            margin: 20px 10px;
+            .form-label {
+                color: white;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .form-control {
+                border: solid 1px black;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                &::placeholder{
+                    color: rgb(187, 185, 185);
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+        }
+        .consulta {
+            display: flex;
+            flex-direction: column;
+            .form-label{
+            }
+            #text-area-form{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 6px 12px;
+                height: 100px;
+            }
+        }
+        .cont-btn-submit {
+            display: flex;
+            justify-content: center;
+            .btn-form {
+                color: white;
+                background-color: $bg-color-principal;
+                text-align: center;
+                border: none;
+            }
+        }
+        @media only screen and (max-width:450px){
+            border: solid 1px $bg-color-principal;
+            border-radius: 10px;
+            width: 85%;
+        }
+    }
+}

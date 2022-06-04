@@ -1,4 +1,5 @@
 @import '../base/maps';
+@import '../base/extends';
 footer {
     margin-top: 100px;
 
@@ -8,8 +9,7 @@ footer {
         .row-1-footer {
             margin: 0px;
             border-bottom: solid 1px rgb(1, 171, 82);
-            display: flex;
-            justify-content: center;
+            @extend %justify-center;
             .col-1-footer {
                 margin: 20px 0px;
                 .cont-navegation {
@@ -28,7 +28,6 @@ footer {
                             .link-navegation {
                                 color: map-get($link-nav-style, color-letter);
                                 text-decoration: none;
-                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                                 &:hover{
                                     color: green;
                                 }
@@ -59,7 +58,6 @@ footer {
                                 color: rgb(1, 171, 82);
                             }
                             .link-contact {
-                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                                 color: rgb(1, 171, 82);
                                 text-decoration: none;
                                 padding: 0px 4px;

@@ -1,7 +1,7 @@
 * {
   padding: 0%;
   margin: 0%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
@@ -221,11 +221,11 @@ section .cont-section-3-index .box-section-3 .cont-icon-section-3 {
   margin: 20px;
   margin-top: 0px;
   margin-right: 0px;
-  border: solid 3px rgb(1, 171, 82);
+  border: solid 3px rgb(66, 194, 66);
   border-radius: 30px;
 }
 section .cont-section-3-index .box-section-3 .cont-icon-section-3 .icon-section-3 {
-  color: rgb(1, 171, 82);
+  color: rgb(66, 194, 66);
   font-size: 25px;
   padding: 10px;
 }
@@ -390,47 +390,12 @@ section .cont-section-4 .cont-igs .link-ig:hover {
   }
 }
 
-section .container-contact {
-  margin: 45px 120px 0px 120px;
-  background-color: white;
-  border: solid 3px rgb(66, 194, 66);
-  border-radius: 10px;
-}
-section .container-contact .mb-3 {
-  margin: 5px 20px;
-}
-section .container-contact .mb-3 .form-label {
-  color: black;
-}
-section .container-contact .mb-3 .form-control {
-  border: solid 1px rgb(66, 194, 66);
-  color: black;
-}
-section .container-contact .mb-3 .form-control::placeholder {
-  color: gray;
-}
-section .container-contact .mb-3 textarea {
-  height: 150px;
-}
-section .container-contact .cont-button {
-  padding: 15px;
-  text-align: center;
-}
-section .container-contact .cont-button #button-send {
-  width: 120px;
-}
-@media only screen and (max-width: 550px) {
-  section .container-contact {
-    margin: 45px 40px 0px 40px;
-  }
-}
-
 header .header-container .row-logo .search-container, header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-ig {
   display: flex;
   align-items: center;
 }
 
-header .header-container .row-logo .logo-container {
+footer .cont-footer .row-1-footer, header .header-container .row-logo .logo-container {
   display: flex;
   justify-content: center;
 }
@@ -538,6 +503,16 @@ header .header-container .row-nav #navBar #cont-nav .nav .ul-nav .li-contact {
   }
 }
 
+header .header-container .row-ig, header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-logo .search-container {
+  display: flex;
+  align-items: center;
+}
+
+footer .cont-footer .row-1-footer, header .header-container .row-logo .logo-container {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   margin-top: 100px;
 }
@@ -547,8 +522,6 @@ footer .cont-footer {
 footer .cont-footer .row-1-footer {
   margin: 0px;
   border-bottom: solid 1px rgb(1, 171, 82);
-  display: flex;
-  justify-content: center;
 }
 footer .cont-footer .row-1-footer .col-1-footer {
   margin: 20px 0px;
@@ -572,7 +545,6 @@ footer .cont-footer .row-1-footer .col-1-footer .cont-navegation .ul-navegation 
 footer .cont-footer .row-1-footer .col-1-footer .cont-navegation .ul-navegation .li-navegation .link-navegation {
   color: rgb(1, 171, 82);
   text-decoration: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 footer .cont-footer .row-1-footer .col-1-footer .cont-navegation .ul-navegation .li-navegation .link-navegation:hover {
   color: green;
@@ -605,7 +577,6 @@ footer .cont-footer .row-1-footer .col-2-footer .cont-contact .ul-contact .li-co
   color: rgb(1, 171, 82);
 }
 footer .cont-footer .row-1-footer .col-2-footer .cont-contact .ul-contact .li-contact .link-contact {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(1, 171, 82);
   text-decoration: none;
   padding: 0px 4px;
@@ -775,6 +746,7 @@ section .cont-icon-wsp {
   z-index: 10000;
   text-align: end;
   bottom: 5%;
+  display: block;
 }
 section .cont-icon-wsp .btn-wsp {
   text-decoration: none;
@@ -1195,6 +1167,96 @@ section .cont-section-2-comprar .box-section-2 .cont-text-section-2 .section-2-t
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+section .cont-section-1-contact .cont-h1-contact {
+  margin: 30px;
+  width: 45%;
+  display: inline-block;
+  border-bottom: solid 3px rgb(46, 214, 46);
+}
+section .cont-section-1-contact .cont-h1-contact .h1-contact {
+  font-size: 40px;
+  color: rgb(46, 214, 46);
+}
+@media only screen and (max-width: 550px) {
+  section .cont-section-1-contact .cont-h1-contact .h1-contact {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-contact .cont-h1-contact {
+    text-align: center;
+    margin-top: 100px;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 990px) {
+  section .cont-section-1-contact {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.cont-section-2-contact .cont-text-contact {
+  margin: 10px 200px;
+}
+.cont-section-2-contact .cont-text-contact .text-contact {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+@media only screen and (max-width: 850px) {
+  .cont-section-2-contact .cont-text-contact {
+    margin: 10px 10px;
+  }
+}
+
+section .cont-contact-form {
+  width: 55%;
+  background-color: rgb(66, 194, 66);
+  border: solid 1px rgb(66, 194, 66);
+  border-radius: 20px;
+}
+section .cont-contact-form .cont-input {
+  margin: 20px 10px;
+}
+section .cont-contact-form .cont-input .form-label {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+section .cont-contact-form .cont-input .form-control {
+  border: solid 1px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+section .cont-contact-form .cont-input .form-control::placeholder {
+  color: rgb(187, 185, 185);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+section .cont-contact-form .consulta {
+  display: flex;
+  flex-direction: column;
+}
+section .cont-contact-form .consulta #text-area-form {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 6px 12px;
+  height: 100px;
+}
+section .cont-contact-form .cont-btn-submit {
+  display: flex;
+  justify-content: center;
+}
+section .cont-contact-form .cont-btn-submit .btn-form {
+  color: white;
+  background-color: rgb(66, 194, 66);
+  text-align: center;
+  border: none;
+}
+@media only screen and (max-width: 450px) {
+  section .cont-contact-form {
+    border: solid 1px rgb(66, 194, 66);
+    border-radius: 10px;
+    width: 85%;
   }
 }
 

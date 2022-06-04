@@ -1,3 +1,4 @@
+@import '../base/variables';
 section{
     .cont-section-3-index{
         background-color: rgb(243, 239, 239);
@@ -20,10 +21,10 @@ section{
                 margin: 20px;
                 margin-top: 0px;
                 margin-right: 0px;
-                border: solid 3px rgb(1, 171, 82);
+                border: solid 3px $bg-color-principal;
                 border-radius: 30px;
                 .icon-section-3{
-                    color: rgb(1, 171, 82);
+                    color: $bg-color-principal;
                     font-size: 25px;
                     padding: 10px;
                 }

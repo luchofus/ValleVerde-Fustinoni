@@ -1,0 +1,12 @@
+.cont-section-2-contact{
+    .cont-text-contact{
+        margin: 10px 200px;
+        .text-contact{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        @media only screen and (max-width:850px){
+            margin: 10px 10px;
+        }
+    }
+}
