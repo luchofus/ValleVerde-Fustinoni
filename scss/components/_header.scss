@@ -5,9 +5,8 @@
 header {
     .header-container {
         .row-ig {
-            @extend %align-item-center;
             height: 20px;
-            background-color: $bg-color-principal;
+            background-color: $bg-color-principal;            
             .ig-container {
                 height: 100%;
                 .cont-ig {
@@ -20,7 +19,7 @@ header {
                     }
                 }
             }
-            @media only screen and (max-width:990px) {
+            @media only screen and (max-width:990px){
                 display: none;
             }
         }
@@ -38,19 +37,25 @@ header {
                     }
                 }
             }
+
             .search-container {
                 @extend %align-item-center;
                 justify-content: left;
+
                 .search {
                     margin-left: 20px;
                     width: 75%;
+
                     .input-search {
                         border: solid 1px rgb(1, 171, 82);
+
                         &::placeholder {
                             color: rgb(1, 171, 82);
                         }
+
                         .button-search {
                             color: white;
+
                             .icon-search {
                                 color: white;
                             }
@@ -58,59 +63,72 @@ header {
                     }
                 }
             }
+
             @media only screen and (max-width:990px) {
                 display: none;
             }
         }
-        .row-nav{
-            #navBar{
-                #cont-nav{
+
+        .row-nav {
+            #navBar {
+                #cont-nav {
                     background-color: $bg-color-principal;
-                    #button-nav{
+
+                    #button-nav {
                         font-size: 20px;
                         margin: 10px;
-                        border: none; 
-                        #bars{
+                        border: none;
+
+                        #bars {
                             font-size: 30px;
                             color: black;
                         }
                     }
-                    .nav{
+
+                    .nav {
                         background-color: lightgreen;
-                        .ul-nav{
+
+                        .ul-nav {
                             margin: 0 auto;
-                            .li-nav{
+
+                            .li-nav {
                                 margin: 5px 10px;
                                 line-height: 10px;
-                                .navbar-link{
+
+                                .navbar-link {
                                     font-size: map-get($link-nav-style, size-letter);
                                     color: map-get($link-nav-style, color-letter);
                                     padding: map-get($link-nav-style, padding-letter);
                                     border-right: map-get($link-nav-style, border-letter);
-                                    &:hover{
+
+                                    &:hover {
                                         color: rgb(134, 201, 134);
                                     }
-                                    @media only screen and (max-width:990px){
+
+                                    @media only screen and (max-width:990px) {
                                         font-size: 23px;
                                         padding: 50px 5px;
                                         border: none;
                                     }
                                 }
                             }
-                            .li-contact{
+
+                            .li-contact {
                                 border-right: none;
                             }
-                            @media only screen and (max-width:990px){
+
+                            @media only screen and (max-width:990px) {
                                 margin-left: 0;
                             }
                         }
-                        @media only screen and (max-width:990px){
-                        }
+
+                        @media only screen and (max-width:990px) {}
                     }
                 }
             }
         }
-        @media only screen and (max-width:990px){
+
+        @media only screen and (max-width:990px) {
             position: fixed;
             z-index: 2222222;
         }

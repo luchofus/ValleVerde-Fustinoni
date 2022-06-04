@@ -390,7 +390,7 @@ section .cont-section-4 .cont-igs .link-ig:hover {
   }
 }
 
-header .header-container .row-logo .search-container, header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-ig {
+header .header-container .row-logo .search-container, header .header-container .row-ig .ig-container .cont-ig {
   display: flex;
   align-items: center;
 }
@@ -503,7 +503,7 @@ header .header-container .row-nav #navBar #cont-nav .nav .ul-nav .li-contact {
   }
 }
 
-header .header-container .row-ig, header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-logo .search-container {
+header .header-container .row-ig .ig-container .cont-ig, header .header-container .row-logo .search-container {
   display: flex;
   align-items: center;
 }
