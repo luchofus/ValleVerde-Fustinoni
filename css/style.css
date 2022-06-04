@@ -1245,6 +1245,7 @@ section .cont-contact-form .consulta #text-area-form {
 section .cont-contact-form .cont-btn-submit {
   display: flex;
   justify-content: center;
+  margin: 10px 0px;
 }
 section .cont-contact-form .cont-btn-submit .btn-form {
   color: white;
