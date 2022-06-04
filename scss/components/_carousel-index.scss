@@ -1,4 +1,8 @@
 @import '../base/variables';
+.btns-carousel{
+.cont-indicators{
+
+}
 .cont-carousel {
     .carousel-item {
         position: relative;
@@ -38,15 +42,18 @@
                         font-size: 18px;
                     }
                 }
+                @media only screen and (min-width:301px) and (max-width:990px){
+                }
                 @media only screen and (max-width:300px){
                     bottom: 25%;
+                    width: 75%;
                 }
             }
             @media only screen and (min-width:550px) and (max-width:990px) {
-                margin-top: 58px;
+                margin-top: 65px;
             }
             @media only screen and (max-width:549px) {
-                margin-top: 58px;
+                margin-top: 75px;
                 height: 300px;
             }
             @media only screen and (max-width:990px){
@@ -164,9 +171,26 @@
     }
 }
 .carousel-control-prev, .carousel-control-next{
-    .icon-control{
-        @media only screen and (max-width:990px){
-            display: none;
-        }
+    @media only screen and (max-width:990px){
+        margin-top: 58px;
+        position: absolute;
+        z-index: 101010010101;
     }
+    .icon-control{
+        height: 23px;
+    }
+}
+.carousel-control-next{
+    @media only screen and (max-width:990px){
+        padding-left: 30px;
+    }
+}
+.carousel-control-prev{
+    @media only screen and (max-width:990px){
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width:990px){
+    padding: 0px;
+}
 }
