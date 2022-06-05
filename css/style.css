@@ -773,7 +773,7 @@ section .cont-icon-wsp {
   z-index: 10000;
   text-align: end;
   bottom: 5%;
-  display: block;
+  right: 0%;
 }
 section .cont-icon-wsp .btn-wsp {
   text-decoration: none;
