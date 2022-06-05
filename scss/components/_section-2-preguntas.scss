@@ -17,7 +17,7 @@ section{
                 width: 45%;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 border-bottom: solid 1px rgb(194, 192, 192);
-                @media only screen and (max-width:550px){
+                @media only screen and (max-width:990px){
                     text-align:center;
                     font-size: 25px;
                     margin-left: 0px;
@@ -44,19 +44,19 @@ section{
                     .accordion-answer-cont{
                         .accordion-answer{
                             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                            @media only screen and (max-width:550px){
+                            @media only screen and (max-width:990px){
                                 text-align: left;
                             }
                         }
                     }
                 }
-                @media only screen and (max-width:550px){
+                @media only screen and (max-width:990px){
                     border: solid 2px rgb(2, 172, 2);
                     width: auto;
                     margin: 30px 5px;
                 }
             }
-            @media only screen and (max-width:550px){
+            @media only screen and (max-width:990px){
                 width: 100%;
                 border-bottom: solid 1px $text-color-principal;
                 border-right: none;
@@ -65,17 +65,17 @@ section{
             }
         }
         .cont-accordion-1{
-            @media only screen and (max-width:550px){
+            @media only screen and (max-width:990px){
                 margin-top: 0px;
             }
         }
         .cont-accordion-2{
             border-right: none;
-            @media only screen and (max-width:550px){
+            @media only screen and (max-width:990px){
                 border-bottom: none;
             }
         }
-        @media only screen and (max-width:550px){
+        @media only screen and (max-width:990px){
             display: flex;
             flex-direction: column;
             justify-content: center;
